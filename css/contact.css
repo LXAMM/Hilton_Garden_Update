@@ -1,0 +1,108 @@
+/* Importación de fuentes de google fonts */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans");
+
+body {
+  height: 100%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.contact_form {
+  width: 450px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  background-color: #fbfbfb;
+  padding: 30px 30px 20px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary-color);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.form-select {
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--secondary-color);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+  font-weight: 600;
+}
+
+.submit {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+}
+
+span {
+  color: red;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+.formulario h1 {
+  font-size: 38px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+.formulario h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+  text-align: center;
+}
+
+.formulario p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+}

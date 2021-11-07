@@ -1,0 +1,53 @@
+@import "./header.css";
+@import "./first-section.css";
+@import "./second-section.css";
+@import "./last-section.css";
+@import "./restaurant.css";
+@import "./contact.css";
+@import "./footer.css";
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap");
+
+:root {
+  /*  Colores  */
+  --primary-color: #3d56b2;
+  --secondary-color: #5c7aea;
+  --dark-purple: #14279b;
+  --title-color: #121f26;
+  --text-color: #4f4f4f;
+  --white: #fff;
+  --black: #333;
+
+  /*  Fuentes  */
+  --base-font: "Nunito Sans", sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  font-family: var(--base-font);
+  background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+  color: var(--primary-color);
+  font-family: var(--base-font);
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 700;
+}

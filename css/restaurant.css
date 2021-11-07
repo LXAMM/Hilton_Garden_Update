@@ -1,0 +1,35 @@
+.bg-image-restaurant {
+  background-image: url(../img/restaurante.jpg);
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: cover;
+  filter: brightness(1);
+  padding: 1.25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh / 1.2);
+  text-align: center;
+}
+
+.bg-image-restaurant::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  opacity: 0.5;
+  height: 100%;
+  z-index: -1;
+  background: var(--black);
+  position: absolute;
+}
+
+.bg-image-restaurant h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bg-image-restaurant p {
+  color: #c4c4c4;
+}
